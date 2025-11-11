@@ -65,6 +65,19 @@ string Course :: displayCourseInfo()
 };
 int main() {
    
+    Course c;
+    c.courseName("CS101 - Introduction to programming");
+    c.maxStudents(3);
+    c.students();
     
+    Instructor i;
+    i.name("Dr. Lina khaled");
+    i.department("Copmputer science");
+    i.experienceYears(5)
+    
+    Students s;
+    s.name("Omar Nabil");
+    s.Years(2);
+    s.major("Informatics");
     return 0;
 }
