@@ -6,7 +6,18 @@
 #using namespace std;
 //#write student class here
 
-
+class Student 
+{
+  
+  
+  public :
+  
+  int yearLevel;
+  string major;
+  
+  student(int yearLevel , string major );
+  
+  display();
 
 
 
