@@ -5,6 +5,17 @@
 using namespace std;
 //#write Instructor class here
 
+class Instructor
+{
+
+public :
+    
+  string department;
+	int experienceYears;
+	Instructor(string department , int experienceYears; );
+
+	display();
+};
 
 
 
